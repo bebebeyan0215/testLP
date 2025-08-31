@@ -131,11 +131,10 @@ a{color:inherit}
 }
 
 /* idが数値始まりだと環境で解釈差が出るので両方書く */
-#2nd h2,
-#\32nd h2{
-  color:var(--blue);
-  border-left:6px solid var(--pink);
-  padding-left:10px;
+[id="2nd"] h2{
+  color: var(--blue);
+  border-left: 6px solid var(--pink);
+  padding-left: 10px;
 }
 
 /* 概要リスト */
